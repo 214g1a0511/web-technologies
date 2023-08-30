@@ -1,0 +1,181 @@
+<!--Grocery.html-->
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="dettol.jpg"></th>
+<th><img src="parkavenue.jpg"></th>
+<th><img src="eggs.jpg"></th>
+</tr>
+<tr>
+<th>Dettol<br> 20</th>
+<th>Park Avenue<br> 200</th>
+<th>Eggs<br> 60</th>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+<!--Elec.html-->
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="mobile.jpg"></th>
+<th><img src="laptop.jpg"></th>
+<th><img src="buds.jpg"></th>
+</tr>
+<tr>
+<th>Mobile<br> 20000</th>
+<th>Laptop<br> 200000</th>
+<th>Buds<br> 2000</th>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+<!--Fashion.html-->
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+<tr>
+<th><img src="shirt.jpg"></th>
+<th><img src="pant.jpg"></th>
+<th><img src="jacket.jpg"></th>
+</tr>
+<tr>
+<th>Shirt<br> 1000</th>
+<th>Pant<br> 2000</th>
+<th>Jacket<br> 3000</th>
+</tr>
+<tr>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+<td><button type="button">Buy Now</button>&nbsp<button type="button">Add To Cart</button></td>
+</tr>
+</table>
+</body>
+</html>
+
+<!--Footer1.html-->
+
+<html>
+<head>
+<style>
+.footer{
+   position:fixed;
+   left:0;
+   bottom:0;
+   padding:0;
+   width:100%;
+   text-align:center;
+   background:#3894db;
+   color:black;
+}
+</style>
+</head>
+<body>
+<div class="footer">
+<p>&copy;Amaz -- All rights reserved</p>
+</div>
+<body>
+</html>
+
+<!--Head.html-->
+
+<html>
+<head>
+</head>
+<body style="background-color:#6aff9d">
+<I><h1 style="color:#8000ff" align = "center">ALL IN ONE STORE</h1></I>
+</body>
+</html>
+
+<!--list.html-->
+
+<html>
+<head>
+<style>
+body {
+background : #3894db
+}
+li {
+color : #8000ff
+}
+h1 {
+background : #3894db
+}
+</style>
+</head>
+<body>
+<h1 align = "center">Categories</h1>
+<ul align = "center">
+<h3><li><a href="Fashion.html" target="3">Fashion</a></li>
+<li><a href = "elec.html" target="3">Electronics</a></li>
+<li><a href = "Grocery.html" target = "3">Grocery</a></li></h3>
+</ul>
+</body>
+</html>
+
+<!--Main.html-->
+
+<html>
+<frameset rows = "15%,78.5%,06.5%">
+<frame src = "head.html" scrolling = "no" name = "1"/>
+<frameset cols = "25%,75%">
+<frame src= "list.html" name = "2" />
+<frame name = "3"/>
+</frameset>
+<frame src = "footer1.html" name = "4"/ >
+</frameset>
+</html>
+
+
+<!--style.css-->
+
+img{
+  background:#8000ff;
+  text-align:center;
+  width:100px;
+  height:100px;
+  border-radius:40px;
+  color:black;
+  padding:15px 32px;
+}
+table,tr,th{
+  text-align:center;
+}
+button{
+  background:#8000ff;
+  text-align:center;
+  width:100px;
+  height:100px;
+  border:none;
+  color:black;
+  padding:5px 5px;
+  text-decoration:none;
+ display:inline-block;
+}
